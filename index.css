@@ -1,0 +1,35 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('WIN_20240330_03_38_19_Pro.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0.9); /* Texte blanc légèrement transparent */
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+input[type="text"], button {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(255, 100, 100); /* Rouge vif pour les champs de saisie et les boutons */
+    color: #fff; /* Texte blanc */
+    border: none; /* Supprime les bordures */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur pointeur pour les boutons */
+}
+
+input[type="text"]::placeholder {
+    color: rgba(255, 255, 255, 0.5); /* Placeholder texte blanc légèrement transparent */
+}
+
+button:hover {
+    background-color: rgb(200, 50, 50); /* Rouge légèrement assombri au survol */
+}
+
+.result {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.9); /* Texte blanc légèrement transparent */
+}
