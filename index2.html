@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Portail Dynamique</title>
+
+    <link rel="stylesheet" href="PARTIE2.css">
+</head>
+<body>
+
+    <div class="button-container">
+
+        <button id="but1">Formulaire de Contact</button>
+        
+        <button id="but2">Vidéo de Présentation</button>
+        
+        <button id="but3">Photos</button>
+        
+        <button id="but4">CV</button>
+
+    </div>
+
+
+    <div id="modalContact" class="modal">
+
+        <div class="modal-content">
+
+            <span class="close">&times;</span> 
+
+            <h2>Formulaire de Contact</h2>
+
+            <form>
+
+                <label for="nom">Nom :</label>
+                <input type="text">
+
+                <label for="nom">Prenom :</label>
+                <input type="text">
+
+                <label for="nom">E-mail :</label>
+                <input type="text">
+
+                <label for="nom">Telephone :</label>
+                <input type="text" >
+
+                <input type="submit">
+
+            </form>
+        </div>
+    </div>
+    
+    <div id="videoContainer" class="hidden">
+        <iframe id="videoFrame" width="560" height="315" src="https://www.youtube.com/embed/v3Ho7QVaTXM" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
+
+    <div id="photosContainer" class="hidden">
+
+        <img src="téléchargement1.jpg" alt="Ma Photo">
+        <img src="téléchargement2.jpg" alt="Photo de Votre Binôme">
+        <img src="téléchargement3.jpg" alt="Photo binôme 2">
+
+    </div>
+
+    <div id="cvContainer" class="hidden">
+        <a href="Feriel-Djerroud.pdf"></a>
+    </div>
+
+    <script src="PARTIE2.js"></script>
+</body>
+</html>
