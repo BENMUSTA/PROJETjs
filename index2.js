@@ -8,6 +8,7 @@ const photosContainer = document.getElementById("photosContainer");
 const cvContainer = document.getElementById("cvContainer");
 
 
+
 but1.addEventListener("click", function() {
     modalContact.style.display = "block";
 });
